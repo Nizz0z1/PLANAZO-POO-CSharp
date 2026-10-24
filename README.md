@@ -101,12 +101,6 @@ Utilicé una clase abstracta `Evento` porque Cine, Concierto, Taller y EventoDep
 
 La diferencia de precio se resuelve con el método polimórfico `CalcularPrecioFinal()`: `Cine` retorna `PrecioBase`, `Concierto` aplica `1.15m` y `Taller` aplica `0.90m`. Para agregar un tipo nuevo como `EventoDeportivo`, basta con heredar de `Evento` e implementar su regla (en este caso `1.08m`); el gestor y los tipos existentes no necesitan cambios para calcular el precio. Esto evita duplicar los datos y reglas comunes y facilita extender el catálogo.
 
-## Casos verificados
-
-`dotnet run -- --pruebas` verifica ocho escenarios: reserva válida y descuento de cupos; exceso de cupos; cantidad negativa; cancelación y devolución de cupos; segundo intento de cancelación; consulta de evento inexistente; precios de los tipos de evento; y búsqueda de reservas por usuario junto al resumen de reservas activas. La salida se guarda en `Capturas/pruebas.txt` y se muestra en la captura `Capturas/pruebas.svg`.
-
-![Captura de la salida de los casos verificados](Capturas/pruebas.svg)
-
 ## Estructura
 
 ```text
