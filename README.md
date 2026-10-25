@@ -23,7 +23,7 @@ git clone https://github.com/Nizz0z1/PLANAZO-POO-CSharp.git
 Despues, en la terminal, vas a elegir el programa:
 
 ```bash
-cd GestorVentasUnidad1
+cd PLANAZO-POO-CSharp
 ```
 
 Y por ulitmo lo ejecutas con este codigo:
