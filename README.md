@@ -15,6 +15,19 @@ Aplicación de consola en C# y .NET para consultar eventos, reservar entradas, c
 
 Requiere .NET 10 SDK.
 
+Para descargar el proyecto desde GitHub, debes de abrir la terminal en vs y ejecutar:
+
+```bash
+git clone https://github.com/Nizz0z1/PLANAZO-POO-CSharp.git
+```
+Despues, en la terminal, vas a elegir el programa:
+
+```bash
+cd GestorVentasUnidad1
+```
+
+Y por ulitmo lo ejecutas con este codigo:
+
 ```bash
 dotnet run
 ```
