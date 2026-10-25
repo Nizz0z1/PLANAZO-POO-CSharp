@@ -101,6 +101,10 @@ Utilicé una clase abstracta `Evento` porque Cine, Concierto, Taller y EventoDep
 
 La diferencia de precio se resuelve con el método polimórfico `CalcularPrecioFinal()`: `Cine` retorna `PrecioBase`, `Concierto` aplica `1.15m` y `Taller` aplica `0.90m`. Para agregar un tipo nuevo como `EventoDeportivo`, basta con heredar de `Evento` e implementar su regla (en este caso `1.08m`); el gestor y los tipos existentes no necesitan cambios para calcular el precio. Esto evita duplicar los datos y reglas comunes y facilita extender el catálogo.
 
+## Evidencia
+
+
+
 ## Estructura
 
 ```text
